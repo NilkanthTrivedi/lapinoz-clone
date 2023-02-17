@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.navbar-nav {
+    margin-left: 300px;
+}
+.nav-item {
+    margin-right: 1.5rem;
+}
+.nav-item a {
+    font-size: 16px;
+    color: #00572d !important;
+    font-weight: 500;
+}
